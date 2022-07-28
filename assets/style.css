@@ -1,0 +1,105 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+p {
+	padding: 0;
+	margin: 0;
+}
+.box-header p{
+	font-size: 23px;
+	font-weight: bold
+}
+.box-footer p {
+	font-size: 14px;
+}
+
+.box {
+	width: 700px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid #ddd;
+}
+.msg {
+	margin-top: 10px;
+}
+.box-header,
+.box-footer {
+	background-color: #eee;
+	padding: 10px;
+}
+.box-body {
+	padding: 0px 10px;
+	border-bottom: 1px solid #ddd;
+	background-color: rgb(213, 213, 213);
+}
+
+input {
+	width: 19.5%;
+	padding: 5px 8px;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.365);
+	
+}
+input[type = "submit"]{
+	background-color: black;
+	color: white;
+	width: 19.4%;
+}
+
+.box-element {
+	height: 250px;
+
+	overflow: auto;
+}
+
+.area {
+	background-color: rgb(249, 247, 247);
+	padding: 5px 20px;
+	margin: 20px 20px;
+	border-radius: 5px;
+	box-shadow: 2px 4px 4px rgb(182, 180, 180);
+}
+
+.job-list {
+	display: flex;
+	font-size: 13px;
+	
+	
+}
+.area{
+	position: relative;
+}
+.icon{
+	position: absolute;
+	top: 0;
+	right: 15px;
+}
+.job-list button {
+	outline: none;
+	border: none;
+}
+.job-time {
+	
+	justify-content: space-between;
+	display: flex;
+}
+.job-details{ 
+	margin-right: 10px;
+}
+
+.bar{
+	
+	height: 5px;
+	background-color: red;
+	border-radius: 10px;
+	margin: 8px 0px;
+	display: block;
+}
+
